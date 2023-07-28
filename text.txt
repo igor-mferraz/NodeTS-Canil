@@ -1,0 +1,23 @@
+//CRIAR PROJETO NODE
+    1 Passo // npm init - criar o package.json // enter para criar
+    2 Passo // tsc --init // instalar a configuração do tsc
+
+CONFIG do tsconfig.json
+    "target":"es6",
+    "rootDir": "./src",   
+    "outDir": "./dist",
+    "moduleResolution": "node",  
+
+DEPENDECIAS     
+    EXPRESS, MUSTACHE, DOTENV
+    npm install express mustache-express dotenv
+
+TYPES DEPENDECIAS
+    npm install --save-dev @types/express @types/mustache-express @types/node
+
+CRIAR ARQUIVOS
+    pasta src
+    server.ts
+
+CRIAR COMANDO NO package.json
+    "start-dev" : "nodemon -e ts,json,mustache src/server.ts"

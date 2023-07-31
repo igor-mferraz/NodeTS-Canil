@@ -1,6 +1,5 @@
 type PetType = 'dog' | 'cat' | 'fish'
 
-
 type Pet = {
     type: PetType,
     image: string,
